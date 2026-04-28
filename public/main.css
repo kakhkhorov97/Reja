@@ -16,7 +16,7 @@
   width: 1440px;
   height: 1312px;
   margin-top: 2px;
-  background-color: #e6adad;
+  background-color: #f7f3f3;
 }
 
 .main_frame .left_frame {
@@ -45,6 +45,12 @@
   width: 108px;
   height: 1315px;
   background-color: white;
+}
+
+.line {
+position: relative;
+width: 220px;
+height: 0;
 }
 
 .main_frame .left_1 {
@@ -100,8 +106,8 @@
   text-transform: capitalize;
   color: 口#767676;
   font-feature-settings:
-    "calt" off,
-    "kern" off;
+  "calt" off,
+  "kern" off;
 }
 
 .left_icons {
@@ -157,6 +163,10 @@
   align-items: center;
   width: 221px;
   height: 25px;
+}
+
+.about_me_color {
+  background-color: orange;
 }
 
 .age {
@@ -273,15 +283,45 @@
   height: 153px;
   margin-top: 25px;
   margin-left: 45px;
-  background-color: aqua;
 }
 
-.languages {
-  position: relative;
-  width: 220px;
-  height: 153;
-  
+.language, .skills {
+width: 220px;
+height: 30px;
+display: flex;
+justify-content: space-between;
 }
+
+.language_1, .skills_1{
+
+position: relative;
+width: 49px;
+height: 24px;
+font-family: "Inter";
+font-style: Regular;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+
+}
+
+.language_number, .skills_number {
+width: 38px;
+height: 24px;
+font-family: "Inter";
+font-style: Regular;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+}
+
+
 
 .main_frame .left_4 {
   position: relative;
@@ -289,7 +329,6 @@
   height: 252px;
   margin-top: 25px;
   margin-left: 45px;
-  background-color: aqua;
 }
 
 .main_frame .left_5 {
@@ -298,5 +337,199 @@
   height: 148px;
   margin-top: 25px;
   margin-left: 45px;
-  background-color: aqua;
+}
+
+.extra {
+display: flex;
+align-items: center;
+gap: 8px;
+}
+
+.extra p {
+margin: 0;
+  }
+
+
+                /*Left frame 끝*/
+
+
+.middle {
+position: relative;
+width: 100%;
+height: 1259px;
+margin-left: 30px;
+margin-right: 27px;
+display: flex;
+justify-content: space-between;
+padding: 40px;
+background-color: white;
+}
+
+.middle_1 {
+width: 500px;
+font-family: sans-serif;
+font-weight: 500;
+font-size: 40px;
+line-height: 115%;
+letter-spacing: 0%;
+color: black;
+margin-top: 70px;
+margin-bottom: 18px;
+}
+
+h2 {
+font-family: "Inter";
+font-style: Bold;
+font-size: 48px;
+font-weight: 700;
+line-height: 123.6%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+p {
+font-family: "Inter";
+font-style: Regular;
+font-size: 22px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+}
+
+.hire_me {
+ background-color: #f4a300;
+ color: #222;
+ border: none;
+ padding: 20px 50px;
+ font-size: 32px;
+ border-radius: 25px;
+ cursor: pointer;
+ display: flex;
+ align-items: center;
+ gap: 20px;
+}
+
+.hire_me img {
+width: 10.67px;
+height: 10.37px;
+}
+
+.middle_picture img {
+width: 300px;
+border-radius: 20px;
+padding-right: 90px;
+}
+
+.my_services {
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 653px;
+width: 100%;
+margin-top: 139px;
+background: white;
+}
+
+h2 {
+font-weight: 700;
+font-size: 32px;
+line-height: 124%;
+letter-spacing: 0%;
+text-transform: capitalize;
+color: black;
+text-align: center;
+margin-bottom: 25px;
+}
+
+p {
+width: 438px;
+text-align: center;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+color: #767676;
+margin-bottom: 50px;
+}
+
+.cards {
+display: grid;
+gap: 10px;
+grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+width: 310px;
+height: 225px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-end;background: white;
+}
+
+.card h3 {
+font-weight: 500;
+font-size: 18px;
+line-height: 124%;
+letter-spacing: 0%;
+text-transform: capitalize;
+color: black;
+margin-top: 23px;
+}
+
+ p {
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+color: #767676;
+margin-top: 16px;
+margin-bottom: 38px;
+}
+
+.advertising p {
+width: 260px;
+text-align: center;
+margin-bottom: 20px;
+}
+
+.advertising h4 {
+  margin-top: 28px;
+}
+
+.advertising a {
+margin-bottom: 28px;
+font-weight: 700;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 0%;
+color: orange;
+text-decoration: none;
+}
+/* middle 끝 */
+
+
+.right_frame {
+position: relative;
+width: 108px;
+height: 1315px;
+background-color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.right_buttons {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+height: 493px;
+margin-top: 174px;
 }

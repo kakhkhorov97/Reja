@@ -1,6 +1,6 @@
 {
   "name": "Shawn",
-  "profession": "Student",
+  "profession": "Student, ITchi",
   "age": 28,
   "residence": "S.Korea",
   "address": "S.Korea, Gwangju",
@@ -11,10 +11,5 @@
   "service_desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat",
   "about_me": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat feugiat placerat lobortis.",
   "city": "Denau",
-  "title": ["Flower", "Seedlings", "Gardner", "Old", "New"],
-  "flower_desc": ["What is a Flower?", "What is a Seedling?", "Who is Gardner?"],
-  "flower_name": ["Tulip", "Daffodil", "Poppy", "Sunflower", "Bluebell", "Rose", "Snowdrop", "Cherry", "blossom"],
-  "flower_price": ["15$", "25$", "12$", "20$", "35$", "30$", "22$", "19$", "9$"],
-  "famous_words": ["World is Beautiful with Flowers"],
-  "famous_name": ["Steve Jobs"]
+  "title": ["Flower", "Seedlings", "Gardner", "Old", "New"]
 }
