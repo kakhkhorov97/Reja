@@ -3,8 +3,8 @@ const http = require("http");
 const mongodb = require("mongodb");
 
 let db;
-const connectionString = "mongodb+srv://mitpractice1:mitpacticedatabase@cluster0.fruak8h.mongodb.net/Reja?appName=Cluster0";
-mongodb.MongoClient.connect(connectionString, 
+const connectionString = "mongodb+srv://mitpractice1:mitpacticedatabase@cluster0.fruak8h.mongodb.net/Reja?appName=Cluster0"
+mongodb.connect(connectionString, 
     {
         useNewUrlParser: true, 
         useUnifiedTopology: true
