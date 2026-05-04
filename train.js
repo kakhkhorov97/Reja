@@ -1,15 +1,91 @@
+//D-Task:
+
+function checkContent(a, b) {
+  if (a.length !== b.length) return false;
+  return a.split("").sort().join("") === b.split("").sort().join("");
+}
+console.log(checkContent("Barcelona", "celonaBar")); 
+
+function checkContent(a, b) {
+  if (a.length !== b.length) return false;
+  return a.split("").sort().join("") === b.split("").sort().join("");
+}
+console.log(checkContent("Barcelona", "Realmadrid")); 
+
+
+//C-Task:
+
+// class Shop {
+//   constructor(non, lagmon, cola) {
+//     this.products = {
+//       non: non,
+//       lagmon: lagmon,
+//       cola: cola
+//     };
+//   }
+//   getTime() {
+//     const now = new Date();
+//     let hours = now.getHours();
+//     let minutes = now.getMinutes();
+
+//     if (minutes < 10) minutes = "0" + minutes;
+//     return `${hours}:${minutes}`;
+//   }
+//     qoldiq() {
+//     console.log(
+//       `Hozir ${this.getTime()}da ${this.products.non}ta non, ${this.products.lagmon}ta lag'mon va ${this.products.cola}ta cola mavjud`
+//     );
+//   }
+
+//   sotish(product, amount) {
+//     if (this.products[product] >= amount) {
+//       this.products[product] -= amount;
+//       console.log(`${amount}ta ${product} sotildi`);
+//     } else {
+//       console.log(`${product} yetarli emas`);
+//     }
+//   }
+
+//   qabul(product, amount) {
+//     this.products[product] += amount;
+//     console.log(`${amount}ta ${product} qabul qilindi`);
+//   }
+// }
+
+// const shop = new Shop(4, 5, 2);
+
+// shop.qoldiq();
+// shop.sotish("non", 3);
+// shop.qabul("cola", 4);
+// shop.qoldiq();
+
+
+//B-Task:
+
+// function countDigits(str) {
+//   let count = 0;
+// for (let char of str) {
+// if (char >= '0' && char <= '9') {
+//     count++; }
+// }
+// return count;
+// }
+// console.log(countDigits("8H2kL9vP3mN7xR1qW5zT6bY4uJ8"));
+
+
+
 //A-Task:
 
-function countLetter(letter, word) {
-    return word.split(letter).length - 1;
-}
+// function countLetter(letter, word) {
+//     return word.split(letter).length - 1;
+// }
 
-const word = "entertainment";
-const letter = "e";
+// const word = "entertainment";
+// const letter = "e";
 
-const result = countLetter(letter, word);
+// const result = countLetter(letter, word);
 
-console.log(result);
+// console.log(result);
 
 
 // console.log("Jack Ma maslahatlari");
