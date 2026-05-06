@@ -1,16 +1,23 @@
+//E-Task:
+function getReverse (str) {
+  return str.split("").reverse("").join("");}
+  console.log(getReverse ("Shohjahon"));
+
+
+
 //D-Task:
 
-function checkContent(a, b) {
-  if (a.length !== b.length) return false;
-  return a.split("").sort().join("") === b.split("").sort().join("");
-}
-console.log(checkContent("Barcelona", "celonaBar")); 
+// function checkContent(a, b) {
+//   if (a.length !== b.length) return false;
+//   return a.split("").sort().join("") === b.split("").sort().join("");
+// }
+// console.log(checkContent("Barcelona", "celonaBar")); 
 
-function checkContent(a, b) {
-  if (a.length !== b.length) return false;
-  return a.split("").sort().join("") === b.split("").sort().join("");
-}
-console.log(checkContent("Barcelona", "Realmadrid")); 
+// function checkContent(a, b) {
+//   if (a.length !== b.length) return false;
+//   return a.split("").sort().join("") === b.split("").sort().join("");
+// }
+// console.log(checkContent("Barcelona", "Realmadrid")); 
 
 
 //C-Task:
