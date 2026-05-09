@@ -1,7 +1,26 @@
-//E-Task:
-function getReverse (str) {
-  return str.split("").reverse("").join("");}
-  console.log(getReverse ("Shohjahon"));
+// F-Task
+
+function findDoublers(str) {
+  let letters = [];
+
+  for (let i = 0; i < str.length; i++) {
+    if (letters.includes(str[i])) {
+      return true;
+    }
+
+    letters.push(str[i]);
+  }
+
+  return false;
+}
+
+console.log(findDoublers("hello"));
+
+
+// //E-Task:
+// function getReverse (str) {
+//   return str.split("").reverse("").join("");}
+//   console.log(getReverse ("Shohjahon"));
 
 
 
