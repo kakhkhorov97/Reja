@@ -128,7 +128,7 @@ app.get("/", function (req, res) {
 
 
 app.get("/author", (req, res) => {
-    res.render("author", {user: user});
+    res.render("author",);
 });
 
 module.exports = app;
