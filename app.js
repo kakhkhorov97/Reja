@@ -127,8 +127,8 @@ app.get("/", function (req, res) {
 
 
 
-// app.get("/author", (req, res) => {
-//     res.render("author", {user: user});
-// });
+app.get("/author", (req, res) => {
+    res.render("author", {user: user});
+});
 
 module.exports = app;
