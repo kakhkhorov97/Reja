@@ -1,20 +1,28 @@
-// F-Task
-
-function findDoublers(str) {
-  let letters = [];
-
-  for (let i = 0; i < str.length; i++) {
-    if (letters.includes(str[i])) {
-      return true;
-    }
-
-    letters.push(str[i]);
-  }
-
-  return false;
+// G-Task
+function getHighestIndex(arr) {
+    let highest = Math.max(...arr)
+    return arr.indexOf(highest)
 }
 
-console.log(findDoublers("hello"));
+console.log(getHighestIndex([6, 55, 118, 2, 50]))
+
+// F-Task
+
+// function findDoublers(str) {
+//   let letters = [];
+
+//   for (let i = 0; i < str.length; i++) {
+//     if (letters.includes(str[i])) {
+//       return true;
+//     }
+
+//     letters.push(str[i]);
+//   }
+
+//   return false;
+// }
+
+// console.log(findDoublers("hello"));
 
 
 // //E-Task:
