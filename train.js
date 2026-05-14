@@ -1,10 +1,22 @@
-// G-Task
-function getHighestIndex(arr) {
-    let highest = Math.max(...arr)
-    return arr.indexOf(highest)
-}
+// H - TAsk
+function getPositive(arr) {
+ let result = "";
+  for (let num of arr) {
+      if (num > 0) {
+         result += String(num);
+         }
+        }
+     return result; }
+      console.log(getPositive([3, -1, 7, -5]))
 
-console.log(getHighestIndex([6, 55, 118, 2, 50]))
+
+// G-Task
+// function getHighestIndex(arr) {
+//     let highest = Math.max(...arr)
+//     return arr.indexOf(highest)
+// }
+
+// console.log(getHighestIndex([6, 55, 118, 2, 50]))
 
 // F-Task
 
