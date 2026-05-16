@@ -1,13 +1,38 @@
+// I - Task
+function majorityElement(arr) {
+
+    let count = {};
+    let biggestCount = 0;
+    let answer = null;
+
+    for (let num of arr) {
+        if (count[num] === undefined) {
+            count[num] = 1;
+             } 
+        else {
+            count[num] = count[num] + 1;
+             }
+        if (count[num] > biggestCount) {
+            biggestCount = count[num];
+            answer = num;
+             }
+    }
+
+    return answer;
+}
+
+console.log(majorityElement([6, 2, 1, 4, 6, 4, 6, 8]));
+
 // H - TAsk
-function getPositive(arr) {
- let result = "";
-  for (let num of arr) {
-      if (num > 0) {
-         result += String(num);
-         }
-        }
-     return result; }
-      console.log(getPositive([3, -1, 7, -5]))
+// function getPositive(arr) {
+//  let result = "";
+//   for (let num of arr) {
+//       if (num > 0) {
+//          result += String(num);
+//          }
+//         }
+//      return result; }
+//       console.log(getPositive([3, -1, 7, -5]))
 
 
 // G-Task
