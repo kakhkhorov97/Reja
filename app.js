@@ -128,9 +128,7 @@ app.get("/", function (req, res) {
 
 app.get("/author", (req, res) => {
     const data = fs.readFileSync("./database/user.json", "utf-8");
-
     const user = JSON.parse(data);
-
     res.render("author", { user });
 });
 

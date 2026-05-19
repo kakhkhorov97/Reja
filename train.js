@@ -1,27 +1,46 @@
-// I - Task
-function majorityElement(arr) {
+// J- Task
 
-    let count = {};
-    let biggestCount = 0;
-    let answer = null;
+function findLongestWord(str) {
+    let words = str.split(" ");
+    let longest = "";
 
-    for (let num of arr) {
-        if (count[num] === undefined) {
-            count[num] = 1;
-             } 
-        else {
-            count[num] = count[num] + 1;
-             }
-        if (count[num] > biggestCount) {
-            biggestCount = count[num];
-            answer = num;
-             }
+    for (let word of words) {
+        if (word.length > longest.length) {
+            longest = word;
+        }
     }
 
-    return answer;
+    return longest;
 }
 
-console.log(majorityElement([6, 2, 1, 4, 6, 4, 6, 8]));
+console.log(findLongestWord("Men O'zbekistonlikman!"));
+
+
+
+// I - Task
+// function majorityElement(arr) {
+
+//     let count = {};
+//     let biggestCount = 0;
+//     let answer = null;
+
+//     for (let num of arr) {
+//         if (count[num] === undefined) {
+//             count[num] = 1;
+//              } 
+//         else {
+//             count[num] = count[num] + 1;
+//              }
+//         if (count[num] > biggestCount) {
+//             biggestCount = count[num];
+//             answer = num;
+//              }
+//     }
+
+//     return answer;
+// }
+
+// console.log(majorityElement([6, 2, 1, 4, 6, 4, 6, 8]));
 
 // H - TAsk
 // function getPositive(arr) {
