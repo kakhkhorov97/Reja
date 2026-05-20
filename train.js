@@ -1,19 +1,21 @@
+
+
 // J- Task
 
-function findLongestWord(str) {
-    let words = str.split(" ");
-    let longest = "";
+// function findLongestWord(str) {
+//     let words = str.split(" ");
+//     let longest = "";
 
-    for (let word of words) {
-        if (word.length > longest.length) {
-            longest = word;
-        }
-    }
+//     for (let word of words) {
+//         if (word.length > longest.length) {
+//             longest = word;
+//         }
+//     }
 
-    return longest;
-}
+//     return longest;
+// }
 
-console.log(findLongestWord("Men O'zbekistonlikman!"));
+// console.log(findLongestWord("Men O'zbekistonlikman!"));
 
 
 
